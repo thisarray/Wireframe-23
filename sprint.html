@@ -22,27 +22,27 @@ body {
 
 <body>
 <section id="imageLoader" class="hidden">
-  <img class="hidden" src="images/finishline.png" alt="finishline">
-  <img class="hidden" src="images/idle.png" alt="idle">
-  <img class="hidden" src="images/m25.png" alt="m25">
-  <img class="hidden" src="images/m50.png" alt="m50">
-  <img class="hidden" src="images/m75.png" alt="m75">
-  <img class="hidden" src="images/run1.png" alt="run1">
-  <img class="hidden" src="images/run10.png" alt="run10">
-  <img class="hidden" src="images/run11.png" alt="run11">
-  <img class="hidden" src="images/run12.png" alt="run12">
-  <img class="hidden" src="images/run13.png" alt="run13">
-  <img class="hidden" src="images/run14.png" alt="run14">
-  <img class="hidden" src="images/run15.png" alt="run15">
-  <img class="hidden" src="images/run2.png" alt="run2">
-  <img class="hidden" src="images/run3.png" alt="run3">
-  <img class="hidden" src="images/run4.png" alt="run4">
-  <img class="hidden" src="images/run5.png" alt="run5">
-  <img class="hidden" src="images/run6.png" alt="run6">
-  <img class="hidden" src="images/run7.png" alt="run7">
-  <img class="hidden" src="images/run8.png" alt="run8">
-  <img class="hidden" src="images/run9.png" alt="run9">
-  <img class="hidden" src="images/track.png" alt="track">
+  <img class="hidden" src="images/finishline.png" alt="finishline" data-name="finishline">
+  <img class="hidden" src="images/idle.png" alt="idle" data-name="idle">
+  <img class="hidden" src="images/m25.png" alt="m25" data-name="m25">
+  <img class="hidden" src="images/m50.png" alt="m50" data-name="m50">
+  <img class="hidden" src="images/m75.png" alt="m75" data-name="m75">
+  <img class="hidden" src="images/run1.png" alt="run1" data-name="run1">
+  <img class="hidden" src="images/run10.png" alt="run10" data-name="run10">
+  <img class="hidden" src="images/run11.png" alt="run11" data-name="run11">
+  <img class="hidden" src="images/run12.png" alt="run12" data-name="run12">
+  <img class="hidden" src="images/run13.png" alt="run13" data-name="run13">
+  <img class="hidden" src="images/run14.png" alt="run14" data-name="run14">
+  <img class="hidden" src="images/run15.png" alt="run15" data-name="run15">
+  <img class="hidden" src="images/run2.png" alt="run2" data-name="run2">
+  <img class="hidden" src="images/run3.png" alt="run3" data-name="run3">
+  <img class="hidden" src="images/run4.png" alt="run4" data-name="run4">
+  <img class="hidden" src="images/run5.png" alt="run5" data-name="run5">
+  <img class="hidden" src="images/run6.png" alt="run6" data-name="run6">
+  <img class="hidden" src="images/run7.png" alt="run7" data-name="run7">
+  <img class="hidden" src="images/run8.png" alt="run8" data-name="run8">
+  <img class="hidden" src="images/run9.png" alt="run9" data-name="run9">
+  <img class="hidden" src="images/track.png" alt="track" data-name="track">
 </section>
 
 <main>
@@ -165,10 +165,10 @@ def draw():
 WIDTH  = 800;
 HEIGHT = 300;
 
-ACCELERATION = 0.005;
-DECELERATION = 0.0008;
+const ACCELERATION = 0.005;
+const DECELERATION = 0.0008;
 // number of pixels representing 1m
-SCALE = 75;
+const SCALE = 75;
 
 // a function to display an image at a specific distance along the track
 function displayAt(img, pos, y) {
